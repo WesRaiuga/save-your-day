@@ -23,8 +23,8 @@ body {
 main {
     padding: 0 5%;
     text-align: center;
-    position: relative;
-    bottom: 40px;
+    position: fixed;
+    bottom: 52vh;
 }
 
 .content {
