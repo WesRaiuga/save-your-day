@@ -1,0 +1,56 @@
+:root {
+    --bg-color-default: #6cadd8;
+    --text-primary-color: #ffffffbb;
+    --btn-text-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--text-primary-color);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--bg-color-default);
+    font-family: 'Helvetica';
+}
+
+main {
+    padding: 5%;
+    text-align: justify;
+    text-align: center;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    position: fixed;
+    bottom: 20%;
+}
+
+#saveDayBtn {
+    width: 80vw;
+    padding: 30px 15px;
+    background-color: #0c6876;
+    font-size: 20pt;
+    font-weight: bold;
+    color: var(--btn-text-color);
+    cursor: pointer;
+}
+
+@media (min-width: 800px) {
+	#saveDayBtn {
+        width: 40vw;
+    }
+}
